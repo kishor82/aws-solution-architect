@@ -87,3 +87,48 @@ IAM is a foundational service in AWS, and it plays a crucial role in securing an
     -   Instances can access metadata about themselves and receive user data at launch time. This information is useful for customizing the behavior of instances.
 
 EC2 is a fundamental service in AWS, providing the foundational infrastructure for various types of cloud-based applications. It is widely used for hosting websites, running applications, and performing various compute-intensive tasks in the cloud.lege, allowing organizations to control and audit access to their cloud resources effectively.
+
+# AWS Load Balancers
+
+AWS Load Balancers play a crucial role in distributing incoming network traffic across multiple targets (such as EC2 instances) to ensure optimal utilization, fault tolerance, and high availability. There are several types of load balancers offered by AWS:
+
+1. **Classic Load Balancer (CLB):**
+   - **Description:** Legacy load balancer that operates at both the application and transport layers.
+   - **Features:**
+     - Distributes traffic across multiple EC2 instances.
+     - Supports both HTTP and HTTPS protocols.
+     - Offers basic load balancing functionality.
+
+2. **Application Load Balancer (ALB):**
+   - **Description:** Operates at the application layer (Layer 7) and is designed to handle HTTP/HTTPS traffic.
+   - **Features:**
+     - Routes traffic based on content, allowing for more advanced load balancing configurations.
+     - Supports path-based routing and host-based routing.
+     - Integrates with AWS services like AWS WAF for web application firewall protection.
+
+3. **Network Load Balancer (NLB):**
+   - **Description:** Operates at the transport layer (Layer 4) and is designed for handling TCP, UDP, and TLS traffic.
+   - **Features:**
+     - Provides high-performance, low-latency load balancing.
+     - Ideal for applications that require static IP addresses.
+     - Supports cross-zone load balancing.
+
+4. **Gateway Load Balancer (GWLB):**
+   - **Description:** Scales and secures virtual appliances, such as firewalls and intrusion detection systems.
+   - **Features:**
+     - Supports multi-tenancy for deploying multiple virtual appliances.
+     - Provides high availability and automatic scaling.
+
+5. **Elastic Load Balancer (ELB):**
+   - **Description:** A term often used collectively for ALB, NLB, and CLB, representing the family of load balancers in AWS.
+
+**Key Concepts:**
+- **Listeners and Rules:** Load balancers use listeners to check for connection requests. Rules then determine how the traffic should be routed based on the conditions specified.
+
+- **Target Groups:** Targets, such as EC2 instances, are grouped logically into target groups. Load balancers route traffic to these groups based on health checks.
+
+- **Health Checks:** Load balancers regularly check the health of registered targets and automatically route traffic to healthy targets.
+
+- **Zones and Subnets:** Load balancers can distribute traffic evenly across multiple availability zones for increased fault tolerance.
+
+AWS Load Balancers contribute to creating scalable, highly available, and fault-tolerant architectures in the cloud by efficiently managing incoming traffic. The choice of load balancer type depends on the specific requirements of your applications.
