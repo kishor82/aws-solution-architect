@@ -1,0 +1,77 @@
+
+- [ ] **Domain 1: Design Resilient Architectures**
+  - [ ] 1.1 Design a multi-tier architecture solution
+    - [ ] Amazon VPC
+    - [ ] Elastic Load Balancer (ELB)
+    - [ ] Auto Scaling
+  - [ ] 1.2 Design highly available and/or fault-tolerant architectures
+    - [ ] Amazon RDS
+    - [ ] Amazon S3
+    - [ ] Amazon CloudFront
+  - [ ] 1.3 Design decoupling mechanisms using AWS services
+    - [ ] Amazon SQS
+    - [ ] Amazon SNS
+  - [ ] 1.4 Choose resilient storage
+    - [ ] Amazon EBS
+    - [ ] Amazon Glacier
+  - [ ] 1.5 Determine how to design a multi-tier architecture solution
+    - [ ] AWS Lambda
+    - [ ] Amazon ECS
+
+- [ ] **Domain 2: Define Performant Architectures**
+  - [ ] 2.1 Choose performant storage and databases
+    - [ ] Amazon DynamoDB
+    - [ ] Amazon RDS (Performance considerations)
+  - [ ] 2.2 Select high-performing and scalable compute solutions
+    - [ ] Amazon EC2
+    - [ ] AWS Lambda
+  - [ ] 2.3 Design secure and scalable solutions
+    - [ ] Amazon CloudFront
+    - [ ] AWS Global Accelerator
+
+- [ ] **Domain 3: Specify Secure Applications and Architectures**
+  - [ ] 3.1 Secure data in transit and at rest
+    - [ ] Amazon S3 (Encryption)
+    - [ ] AWS Key Management Service (KMS)
+  - [ ] 3.2 Design protection of data in AWS
+    - [ ] AWS Identity and Access Management (IAM)
+    - [ ] AWS Key Management Service (KMS)
+  - [ ] 3.3 Design secure access to AWS resources
+    - [ ] Amazon VPC
+    - [ ] AWS Identity and Access Management (IAM)
+  - [ ] 3.4 Define the AWS shared responsibility model
+    - [ ] Shared Responsibility Model
+  - [ ] 3.5 Identify resources for protecting data, systems, and assets
+    - [ ] AWS WAF
+    - [ ] Amazon GuardDuty
+
+- [ ] **Domain 4: Design Cost-Optimized Architectures**
+  - [ ] 4.1 Evaluate and optimize cost
+    - [ ] AWS Pricing Calculator
+    - [ ] AWS Trusted Advisor
+  - [ ] 4.2 Identify cost-effective storage solutions
+    - [ ] Amazon S3 (Storage classes)
+    - [ ] Amazon Glacier
+  - [ ] 4.3 Recognize cost-effective compute and database services
+    - [ ] Amazon EC2 (Reserved Instances)
+    - [ ] Amazon RDS (Reserved Instances)
+  - [ ] 4.4 Design cost-effective network architecture
+    - [ ] AWS Direct Connect
+    - [ ] Amazon CloudFront
+
+- [ ] **Domain 5: Define Operationally Excellent Architectures**
+  - [ ] 5.1 Choose design features in solutions that enable operational excellence
+    - [ ] AWS CloudTrail
+    - [ ] AWS Config
+  - [ ] 5.2 Design solutions for logging and monitoring
+    - [ ] Amazon CloudWatch
+    - [ ] AWS X-Ray
+  - [ ] 5.3 Design solutions for security and compliance
+    - [ ] AWS Organizations
+    - [ ] AWS Config
+
+- [ ] **Domain 6: Preparation Resources**
+  - [ ] 6.1 Official AWS Certified Solutions Architect - Associate Exam Guide
+  - [ ] 6.2 AWS whitepapers
+  - [ ] 6.3 AWS Documentation
+  - [ ] 6.4 AWS Training and Certification
