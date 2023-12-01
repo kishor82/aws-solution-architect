@@ -76,3 +76,87 @@ D. By encrypting data in transit between clients and servers.
 **Answer:** B. By distributing incoming traffic across multiple EC2 instances.
 
 ---
+
+
+### EC2 Auto Scaling:
+
+**Q1:**
+
+**What is the primary purpose of AWS Auto Scaling in the context of infrastructure management?**
+
+-   A) To provision new instances manually.
+-   B) To automatically adjust the number of instances based on defined conditions.
+-   C) To handle DNS resolution for incoming traffic.
+-   D) To distribute traffic across multiple instances using a load balancer.
+
+**Answer:**
+
+-   B) _To automatically adjust the number of instances based on defined conditions._
+---
+
+**Q2:**
+
+**Which AWS service allows you to define the launch settings for instances in an Auto Scaling Group?**
+
+-   A) AWS Lambda
+-   B) Amazon RDS
+-   C) Amazon EC2 Auto Scaling
+-   D) AWS Elastic Beanstalk
+
+**Answer:**
+
+-   C) _Amazon EC2 Auto Scaling_
+---
+**Q3:**
+
+
+**What role do Launch Configurations play in an Auto Scaling Group?**
+
+-   A) They define the pricing model for instances.
+-   B) They specify launch settings for instances.
+-   C) They control access to EC2 instances.
+-   D) They are responsible for handling DNS requests.
+
+**Answer:**
+
+-   B) _They specify launch settings for instances._
+---
+**Q4:**
+
+**How does Auto Scaling handle instances that fail health checks?**
+
+-   A) It terminates the instance and launches a new one.
+-   B) It automatically isolates the instance from the network.
+-   C) It increases the instance's health threshold.
+-   D) It ignores the health check results.
+
+**Answer:**
+
+-   A) _It terminates the instance and launches a new one._
+---
+**Q5:**
+
+**Can Auto Scaling Groups be associated with Elastic Load Balancers (ELB)?**
+
+-   A) No, Auto Scaling Groups and ELB cannot be used together.
+-   B) Yes, instances launched by Auto Scaling Groups can be automatically registered with ELB.
+-   C) Only if manual configuration is performed.
+-   D) Only in specific regions.
+
+**Answer:**
+
+-   B) _Yes, instances launched by Auto Scaling Groups can be automatically registered with ELB._
+---
+**Q6:**
+
+**What advantage does Auto Scaling with AWS Spot Instances offer?**
+
+-   A) It provides unlimited computing resources.
+-   B) It allows you to use spare EC2 capacity at a lower cost.
+-   C) It ensures the highest level of security.
+-   D) It is only suitable for non-production environments.
+
+**Answer:**
+
+-   B) _It allows you to use spare EC2 capacity at a lower cost._
+---
