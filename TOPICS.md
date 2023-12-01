@@ -2,7 +2,7 @@
 - [ ] **Domain 1: Design Resilient Architectures**
   - [ ] 1.1 Design a multi-tier architecture solution
     - [ ] Amazon VPC
-    - [ ] Elastic Load Balancer (ELB)
+    - [x] Elastic Load Balancer (ELB)
     - [ ] Auto Scaling
   - [ ] 1.2 Design highly available and/or fault-tolerant architectures
     - [ ] Amazon RDS
@@ -23,7 +23,7 @@
     - [ ] Amazon DynamoDB
     - [ ] Amazon RDS (Performance considerations)
   - [ ] 2.2 Select high-performing and scalable compute solutions
-    - [ ] Amazon EC2
+    - [x] Amazon EC2
     - [ ] AWS Lambda
   - [ ] 2.3 Design secure and scalable solutions
     - [ ] Amazon CloudFront
@@ -34,11 +34,11 @@
     - [ ] Amazon S3 (Encryption)
     - [ ] AWS Key Management Service (KMS)
   - [ ] 3.2 Design protection of data in AWS
-    - [ ] AWS Identity and Access Management (IAM)
+    - [x] AWS Identity and Access Management (IAM)
     - [ ] AWS Key Management Service (KMS)
   - [ ] 3.3 Design secure access to AWS resources
     - [ ] Amazon VPC
-    - [ ] AWS Identity and Access Management (IAM)
+    - [x] AWS Identity and Access Management (IAM)
   - [ ] 3.4 Define the AWS shared responsibility model
     - [ ] Shared Responsibility Model
   - [ ] 3.5 Identify resources for protecting data, systems, and assets
@@ -53,7 +53,7 @@
     - [ ] Amazon S3 (Storage classes)
     - [ ] Amazon Glacier
   - [ ] 4.3 Recognize cost-effective compute and database services
-    - [ ] Amazon EC2 (Reserved Instances)
+    - [x] Amazon EC2 (Reserved Instances)
     - [ ] Amazon RDS (Reserved Instances)
   - [ ] 4.4 Design cost-effective network architecture
     - [ ] AWS Direct Connect
