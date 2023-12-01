@@ -3,7 +3,7 @@
   - [ ] 1.1 Design a multi-tier architecture solution
     - [ ] Amazon VPC
     - [x] Elastic Load Balancer (ELB)
-    - [ ] Auto Scaling
+    - [x] Auto Scaling
   - [ ] 1.2 Design highly available and/or fault-tolerant architectures
     - [ ] Amazon RDS
     - [ ] Amazon S3
