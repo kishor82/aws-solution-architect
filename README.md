@@ -169,3 +169,47 @@ Here's a brief overview of AWS Auto Scaling Groups:
     -   Auto Scaling supports dynamic scaling, allowing you to respond to changing conditions and automatically adjust the capacity.
 
 AWS Auto Scaling provides a reliable, cost-effective way to ensure that your application is running with the optimal number of instances. It helps you maintain availability and provides a seamless experience for your users.
+
+
+### AWS CloudFront:
+
+**Description:**
+
+-   **Content Delivery Network (CDN):** AWS CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds.
+
+**Key Features:**
+
+1.  **Global Reach:** CloudFront has a large number of edge locations worldwide, ensuring content is delivered to users from the nearest edge location.
+2.  **Scalability:** Automatically scales with the growing traffic and can handle varying workloads.
+3.  **Security:** Provides features like DDoS protection, SSL/TLS encryption, and access controls to secure content delivery.
+4.  **Integration:** Easily integrates with other AWS services like S3, EC2, and Lambda for seamless content delivery.
+
+**Use Cases:**
+
+-   **Website Acceleration:** Speeds up the delivery of static and dynamic web content, including images, videos, and APIs.
+-   **Live and On-Demand Streaming:** Efficiently delivers streaming media content, such as video on demand (VOD) and live streaming.
+-   **Security:** Enhances security by protecting against DDoS attacks and ensuring secure connections.
+
+----------
+
+### AWS Global Accelerator:
+
+**Description:**
+
+-   **Application Acceleration:** AWS Global Accelerator is a service that uses static IP addresses (Anycast) to route traffic over the AWS global network to optimal AWS endpoint locations, improving the availability and performance of applications.
+
+**Key Features:**
+
+1.  **Anycast IP Addresses:** Provides static Anycast IP addresses that serve as a fixed entry point to your applications.
+2.  **Global Routing:** Routes traffic over the AWS global network, minimizing internet congestion and optimizing application availability.
+3.  **Health Checking:** Monitors the health of endpoints and directs traffic only to healthy endpoints.
+4.  **Failover:** Automatically redirects traffic to healthy endpoints in case of endpoint failures.
+5.  **Static IP Addresses:** Offers a pair of static Anycast IP addresses that you can map to application endpoints.
+
+**Use Cases:**
+
+-   **Global Application Delivery:** Ensures low-latency and high-performance delivery of applications to users worldwide.
+-   **Multi-Region Resilience:** Provides failover support and ensures high availability by directing traffic to healthy endpoints.
+-   **Static IP Addresses:** Allows applications to use static IP addresses for a consistent entry point.
+
+These services, AWS CloudFront and AWS Global Accelerator, serve different purposes but can be used together to create comprehensive solutions for content delivery and application acceleration on the AWS cloud.
