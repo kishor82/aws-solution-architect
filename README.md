@@ -336,31 +336,41 @@ AWS Serverless components work together to enable developers to build scalable a
 
 These services, when combined, form the foundation for building scalable, cost-effective, and serverless architectures on AWS.
 
+# AWS machine learning services :
 
+1. **Amazon SageMaker:**
+   - **Description:** A fully managed service for building, training, and deploying machine learning models at scale. It provides an integrated environment for data scientists and developers to work on end-to-end ML workflows.
 
+2. **Amazon Comprehend:**
+   - **Description:** A natural language processing (NLP) service that uses machine learning to find insights and relationships in text. It can be used for sentiment analysis, entity recognition, and language detection.
 
+3. **Amazon Rekognition:**
+   - **Description:** A service for image and video analysis. It can identify objects, people, text, scenes, and activities in images and videos, making it useful for applications such as facial recognition and content moderation.
 
+4. **Amazon Polly:**
+   - **Description:** A service that turns text into lifelike speech using deep learning. It supports multiple languages and provides a variety of voices to create natural-sounding audio.
 
+5. **Amazon Transcribe:**
+   - **Description:** An automatic speech recognition (ASR) service that converts spoken language into written text. It's commonly used for tasks like transcription of audio content.
 
+6. **Amazon Translate:**
+   - **Description:** A neural machine translation service that provides fast and high-quality language translation. It supports a wide range of language pairs.
 
+7. **AWS DeepLens:**
+   - **Description:** A deep learning-enabled video camera designed for developers to get hands-on experience with machine learning. It allows for running deep learning models locally on the device.
 
+8. **AWS Deep Learning AMIs:**
+   - **Description:** Amazon Machine Images (AMIs) that come pre-installed with popular deep learning frameworks, making it easier to set up and run deep learning environments on Amazon EC2 instances.
 
+9. **AWS DeepComposer:**
+   - **Description:** A service that uses generative AI models to create original music compositions. It's part of the AWS DeepComposer keyboard, allowing users to experiment with AI-generated music.
 
+10. **Amazon Personalize:**
+    - **Description:** A service for building personalized recommendations for users based on their behavior and preferences. It's suitable for applications like product recommendations, content personalization, and more.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+11.  **Amazon Comprehend Medical:**
+       - **Description:** A specialized version of Amazon Comprehend designed for extracting medical information from unstructured text. It can identify medical conditions, medications, treatment plans, and more from clinical notes.
+12.  **Amazon Lex:**
+      - **Description:** A service for building conversational interfaces (chatbots) using both voice and text. It provides natural language understanding (NLU) and speech recognition capabilities for creating interactive and intelligent chatbots.
+14.  **Amazon Textract:**
+       - **Description:** A fully managed OCR (Optical Character Recognition) service that extracts text, forms, and tables from scanned documents or images. It helps automate the process of extracting structured data from unstructured documents.
