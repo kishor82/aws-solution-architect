@@ -7,7 +7,7 @@
   - [ ] 1.2 Design highly available and/or fault-tolerant architectures
     - [ ] Amazon RDS
     - [ ] Amazon S3
-    - [ ] Amazon CloudFront
+    - [x] Amazon CloudFront
   - [ ] 1.3 Design decoupling mechanisms using AWS services
     - [ ] Amazon SQS
     - [ ] Amazon SNS
@@ -26,8 +26,8 @@
     - [x] Amazon EC2
     - [ ] AWS Lambda
   - [ ] 2.3 Design secure and scalable solutions
-    - [ ] Amazon CloudFront
-    - [ ] AWS Global Accelerator
+    - [x] Amazon CloudFront
+    - [x] AWS Global Accelerator
 
 - [ ] **Domain 3: Specify Secure Applications and Architectures**
   - [ ] 3.1 Secure data in transit and at rest
