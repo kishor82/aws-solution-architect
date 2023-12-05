@@ -204,3 +204,94 @@ D. Global static IP addresses
 
 **Answer:** D. Global static IP addresses
 ---
+
+### AWS Lambda:
+
+**Q1: What is the primary purpose of AWS Lambda?**
+
+A. To manage databases
+B. To create virtual machines
+C. To run code in response to events
+D. To deploy and manage containers
+
+**Answer: C. To run code in response to events**
+---
+
+**Q2: Which programming languages are supported by AWS Lambda?**
+
+A. Java only
+B. Python only
+C. Node.js, Python, Java, Go, and more
+D. C# only
+
+**Answer: C. Node.js, Python, Java, Go, and more**
+
+---
+
+### Amazon API Gateway:
+
+**Q3: What is the main function of Amazon API Gateway?**
+
+A. To store and retrieve data
+B. To create and manage virtual networks
+C. To design and publish APIs
+D. To manage IAM roles
+
+**Answer: C. To design and publish APIs**
+---
+
+**Q4: Which protocols does Amazon API Gateway support?**
+
+A. HTTP and FTP
+B. RESTful and SOAP
+C. MQTT and AMQP
+D. SSH and Telnet
+
+**Answer: B. RESTful and SOAP**
+
+---
+
+### AWS Step Functions:
+
+**Q5: What is the purpose of AWS Step Functions?**
+
+A. To store and retrieve data
+B. To create and manage databases
+C. To automate and orchestrate workflows
+D. To manage virtual machines
+
+**Answer: C. To automate and orchestrate workflows**
+---
+
+**Q6: How are workflows defined in AWS Step Functions?**
+
+A. JSON-based language
+B. YAML-based language
+C. SQL queries
+D. Python scripts
+
+**Answer: A. JSON-based language**
+
+---
+
+### Amazon DynamoDB:
+
+**Q7: What type of database is Amazon DynamoDB?**
+
+A. Relational database
+B. Graph database
+C. NoSQL database
+D. In-memory database
+
+**Answer: C. NoSQL database**
+---
+
+**Q8: What is the primary benefit of using Amazon DynamoDB?**
+
+A. Strong consistency
+B. Manual scaling
+C. Server management
+D. ACID transactions
+
+**Answer: A. Strong consistency**
+---
