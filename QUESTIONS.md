@@ -160,3 +160,47 @@ D. By encrypting data in transit between clients and servers.
 
 -   B) _It allows you to use spare EC2 capacity at a lower cost._
 ---
+
+### CloudFront:
+
+**Q1:** A company wants to accelerate the delivery of its web content and improve the user experience. Which AWS service should be recommended for this purpose?
+
+A. Amazon S3
+B. AWS Global Accelerator
+C. AWS CloudFront
+D. Amazon Route 53
+
+**Answer:** C. AWS CloudFront
+---
+
+**Q2:** What is the primary benefit of using AWS CloudFront in front of an S3 bucket?
+
+A. Improved durability
+B. Lower storage costs
+C. Faster content delivery
+D. Enhanced security controls
+
+**Answer:** C. Faster content delivery
+---
+
+### Global Accelerator:
+
+**Q3:** An organization wants to improve the availability and performance of their applications across multiple AWS regions. Which service should be suggested for achieving low-latency global routing?
+
+A. Amazon CloudFront
+B. AWS Global Accelerator
+C. Amazon Route 53
+D. AWS Direct Connect
+
+**Answer:** B. AWS Global Accelerator
+---
+
+**Q4:** What is the key advantage of using AWS Global Accelerator over traditional global load balancing solutions?
+
+A. Lower cost
+B. Simplified DNS management
+C. Enhanced security features
+D. Global static IP addresses
+
+**Answer:** D. Global static IP addresses
+---
