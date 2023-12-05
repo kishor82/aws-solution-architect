@@ -15,17 +15,17 @@
     - [ ] Amazon EBS
     - [ ] Amazon Glacier
   - [ ] 1.5 Determine how to design a multi-tier architecture solution
-    - [ ] AWS Lambda
+    - [x] AWS Lambda
     - [ ] Amazon ECS
 
 - [ ] **Domain 2: Define Performant Architectures**
   - [ ] 2.1 Choose performant storage and databases
-    - [ ] Amazon DynamoDB
+    - [x] Amazon DynamoDB
     - [ ] Amazon RDS (Performance considerations)
-  - [ ] 2.2 Select high-performing and scalable compute solutions
+  - [x] 2.2 Select high-performing and scalable compute solutions
     - [x] Amazon EC2
-    - [ ] AWS Lambda
-  - [ ] 2.3 Design secure and scalable solutions
+    - [x] AWS Lambda
+  - [x] 2.3 Design secure and scalable solutions
     - [x] Amazon CloudFront
     - [x] AWS Global Accelerator
 
