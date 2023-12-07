@@ -295,3 +295,71 @@ D. ACID transactions
 
 **Answer: A. Strong consistency**
 ---
+
+### Amazon S3 (Simple Storage Service):
+
+**Q1: What is the maximum size of an individual object that you can store in Amazon S3?**
+
+A. 1 TB\
+B. 5 TB\
+C. 10 GB\
+D. 50 GB
+
+**Answer:** B. 5 TB
+
+---
+
+**Q2: What storage class in Amazon S3 is designed for infrequently accessed data but requires rapid access when needed?**
+
+A. S3 Standard\
+B. S3 Intelligent-Tiering\
+C. S3 Standard-IA (Infrequent Access)\
+D. Glacier
+
+**Answer:** C. S3 Standard-IA (Infrequent Access)
+
+---
+
+**Q3: How is data organized in an S3 bucket?**
+
+A. In folders and subfolders\
+B. In a flat structure\
+C. In tables and rows\
+D. In hierarchical databases
+
+**Answer:** B. In a flat structure
+
+---
+
+**Q4: What is the maximum number of S3 buckets allowed per AWS account by default?**
+
+A. 50\
+B. 100\
+C. 150\
+D. Unlimited
+
+**Answer:** B. 100
+
+---
+
+**Q5: How can you secure data in transit when uploading files to S3?**
+
+A. Use server-side encryption\
+B. Use SSL/TLS for data transfer\
+C. Use access control lists (ACLs)\
+D. Enable versioning
+
+**Answer:** B. Use SSL/TLS for data transfer
+
+---
+
+**Q6: What is the URL format for accessing objects in an S3 bucket over HTTPS?**
+
+A. https://s3.amazonaws.com/bucket/object\
+B. https://s3.aws-region.amazonaws.com/bucket/object\
+C. https://bucket.s3.amazonaws.com/object\
+D. https://bucket.aws-region.s3.amazonaws.com/object
+
+**Answer:** C. https://bucket.s3.amazonaws.com/object
+
+These questions cover various aspects of Amazon S3, including storage classes, security, organization, and limits. Adjust the difficulty based on your preparation level. Good luck with your exam preparation!
