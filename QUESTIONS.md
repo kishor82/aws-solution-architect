@@ -363,3 +363,64 @@ D. https://bucket.aws-region.s3.amazonaws.com/object
 **Answer:** C. https://bucket.s3.amazonaws.com/object
 
 These questions cover various aspects of Amazon S3, including storage classes, security, organization, and limits. Adjust the difficulty based on your preparation level. Good luck with your exam preparation!
+
+
+### Amazon VPC:
+
+**Q1:**
+A company wants to establish a secure and private connection between its on-premises data center and an Amazon VPC. What AWS service should they use for this purpose?
+
+A. Amazon VPN
+B. Amazon VPC Peering
+C. AWS Direct Connect
+D. Amazon Route 53
+
+**Answer:** C. AWS Direct Connect
+
+---
+
+**Q2:**
+Which of the following is used to control inbound and outbound traffic to Amazon EC2 instances within a VPC?
+
+A. Security Groups
+B. VPC Peering
+C. Network ACLs
+D. Subnet Routing
+
+**Answer:** A. Security Groups
+
+---
+
+**Q3:**
+You need to design a solution where instances in a private subnet can securely access Amazon S3 without going over the public internet. What AWS service or feature would you use?
+
+A. VPC Peering
+B. VPC Endpoints
+C. NAT Gateway
+D. AWS Direct Connect
+
+**Answer:** B. VPC Endpoints
+
+---
+
+**Q4:**
+If a company wants to ensure high availability for their web application, which AWS service can they use to distribute incoming traffic across multiple EC2 instances in different availability zones?
+
+A. Elastic Load Balancer (ELB)
+B. Amazon CloudFront
+C. Amazon Route 53
+D. AWS Auto Scaling
+
+**Answer:** A. Elastic Load Balancer (ELB)
+
+---
+
+**Q5:**
+What is the primary purpose of a Network Access Control List (ACL) in Amazon VPC?
+
+A. To filter traffic between subnets
+B. To define security rules for instances
+C. To manage IAM permissions
+D. To route traffic between VPCs
+
+**Answer:** A. To filter traffic between subnets
