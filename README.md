@@ -455,3 +455,39 @@ Amazon S3 offers several storage classes, each designed to optimize costs and pe
 - **S3 One Zone-IA stores data in a single availability zone.**
 - **Glacier offers very low-cost archival storage.**
 - **Deep Archive provides the lowest-cost archival storage with longer retrieval times.**
+
+
+# Amazon Virtual Private Cloud (Amazon VPC)
+Amazon Virtual Private Cloud (Amazon VPC) is a service that allows you to provision a logically isolated section of the Amazon Web Services (AWS) Cloud where you can launch AWS resources in a virtual network. Here are some key points about AWS VPC:
+
+1. **Isolation and Control:**
+   - VPC provides network isolation for your resources within the AWS Cloud. You can define your own IP address range, create subnets, and configure route tables.
+
+2. **Subnets:**
+   - Within a VPC, you can create subnets to further organize and segment your resources. Subnets allow you to group resources based on security or functional requirements.
+
+3. **Internet and Private Connectivity:**
+   - VPCs can be configured to connect to the internet (public subnets) or remain completely private (private subnets). Instances in public subnets can have public IP addresses for direct internet access.
+
+4. **Elastic Load Balancer (ELB):**
+   - VPCs can be configured with Elastic Load Balancers to distribute incoming application traffic across multiple targets, improving the availability and fault tolerance of your applications.
+
+5. **Security Groups and Network ACLs:**
+   - You can use security groups and network access control lists (ACLs) to control inbound and outbound traffic to your instances.
+
+6. **VPN and Direct Connect:**
+   - VPCs can be connected to your on-premises data centers using either VPN (Virtual Private Network) connections or AWS Direct Connect for secure and dedicated network connectivity.
+
+7. **VPC Peering:**
+   - VPCs can be peered with each other, allowing resources in different VPCs to communicate with each other securely using private IP addresses.
+
+8. **Elastic Network Interfaces (ENIs):**
+   - ENIs can be attached to instances in a VPC, providing additional network interfaces for enhanced networking capabilities.
+
+9. **IPv6 Support:**
+   - VPCs support both IPv4 and IPv6 addressing.
+
+10. **VPC Endpoints:**
+    - VPC endpoints allow you to privately access AWS services, such as Amazon S3 or DynamoDB, without requiring public IP addresses.
+
+AWS VPC provides a flexible and scalable networking environment for your AWS resources, allowing you to design and customize your network architecture based on your specific requirements.
