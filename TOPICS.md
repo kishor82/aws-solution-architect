@@ -1,22 +1,22 @@
 
 - [ ] **Domain 1: Design Resilient Architectures**
-  - [ ] 1.1 Design a multi-tier architecture solution
-    - [ ] Amazon VPC
+  - [x] 1.1 Design a multi-tier architecture solution
+    - [x] Amazon VPC
     - [x] Elastic Load Balancer (ELB)
     - [x] Auto Scaling
   - [ ] 1.2 Design highly available and/or fault-tolerant architectures
     - [ ] Amazon RDS
-    - [ ] Amazon S3
+    - [x] Amazon S3
     - [x] Amazon CloudFront
   - [ ] 1.3 Design decoupling mechanisms using AWS services
     - [ ] Amazon SQS
     - [ ] Amazon SNS
   - [ ] 1.4 Choose resilient storage
     - [ ] Amazon EBS
-    - [ ] Amazon Glacier
+    - [x] Amazon Glacier
   - [ ] 1.5 Determine how to design a multi-tier architecture solution
     - [x] AWS Lambda
-    - [ ] Amazon ECS
+    - [x] Amazon ECS
 
 - [ ] **Domain 2: Define Performant Architectures**
   - [ ] 2.1 Choose performant storage and databases
@@ -31,13 +31,13 @@
 
 - [ ] **Domain 3: Specify Secure Applications and Architectures**
   - [ ] 3.1 Secure data in transit and at rest
-    - [ ] Amazon S3 (Encryption)
+    - [x] Amazon S3 (Encryption)
     - [ ] AWS Key Management Service (KMS)
   - [ ] 3.2 Design protection of data in AWS
     - [x] AWS Identity and Access Management (IAM)
     - [ ] AWS Key Management Service (KMS)
   - [ ] 3.3 Design secure access to AWS resources
-    - [ ] Amazon VPC
+    - [x] Amazon VPC
     - [x] AWS Identity and Access Management (IAM)
   - [ ] 3.4 Define the AWS shared responsibility model
     - [ ] Shared Responsibility Model
@@ -50,8 +50,8 @@
     - [ ] AWS Pricing Calculator
     - [ ] AWS Trusted Advisor
   - [ ] 4.2 Identify cost-effective storage solutions
-    - [ ] Amazon S3 (Storage classes)
-    - [ ] Amazon Glacier
+    - [x] Amazon S3 (Storage classes)
+    - [x] Amazon Glacier
   - [ ] 4.3 Recognize cost-effective compute and database services
     - [x] Amazon EC2 (Reserved Instances)
     - [ ] Amazon RDS (Reserved Instances)
