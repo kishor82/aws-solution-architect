@@ -491,3 +491,28 @@ Amazon Virtual Private Cloud (Amazon VPC) is a service that allows you to provis
     - VPC endpoints allow you to privately access AWS services, such as Amazon S3 or DynamoDB, without requiring public IP addresses.
 
 AWS VPC provides a flexible and scalable networking environment for your AWS resources, allowing you to design and customize your network architecture based on your specific requirements.
+
+# Disaster recovery in AWS
+Disaster recovery in AWS refers to the set of strategies and services designed to help businesses recover their IT infrastructure and data in the event of a disaster, ensuring minimal downtime and data loss. AWS provides various tools and services to help organizations build robust disaster recovery solutions:
+
+1.  **Amazon S3 Versioning:** Enables automatic versioning of objects in Amazon S3, allowing you to recover from accidental deletions or overwrites.
+
+2.  **Amazon Glacier:** Offers a low-cost archival solution for data that doesn't need to be accessed frequently. Suitable for backup and long-term data storage.
+
+3.  **AWS Backup:** Centralized backup service that automates the backup of data across AWS services, making it easier to manage and recover backups.
+
+4.  **Amazon RDS Automated Backups:** Automated daily backups of your Amazon RDS database instances, allowing you to restore to any point in time within the retention period.
+
+5.  **Amazon Elastic Block Store (EBS) Snapshots:** Point-in-time copies of EBS volumes, providing a backup solution for data stored on these volumes.
+
+6.  **AWS CloudFormation:** Infrastructure as Code (IaC) tool that allows you to create and manage AWS resources in a repeatable and automated manner. This can be crucial for rebuilding environments.
+
+7.  **AWS CloudEndure Disaster Recovery:** A cloud-based disaster recovery service that helps replicate and recover physical, virtual, and cloud-based servers.
+
+8.  **Amazon Route 53:** Provides DNS failover and health checks to redirect traffic from an unhealthy resource to a healthy one, helping to ensure continuous availability.
+
+9.  **AWS Storage Gateway:** Integrates on-premises IT environments with cloud storage for backup and disaster recovery.
+
+10.  **AWS Site-to-Site VPN:** Enables secure communication between on-premises data centers and the AWS Cloud, facilitating disaster recovery solutions.
+
+11.  **AWS Direct Connect:** Establishes a dedicated network connection from your on-premises data center to AWS, enhancing network performance for disaster recovery scenarios.
