@@ -424,3 +424,69 @@ C. To manage IAM permissions
 D. To route traffic between VPCs
 
 **Answer:** A. To filter traffic between subnets
+
+### AWS CloudWatch:
+
+**Q1:**
+Which AWS service is primarily used for monitoring and collecting metrics from various AWS resources?
+
+A. AWS CloudTrail\
+B. AWS CloudWatch\
+C. AWS Config\
+D. AWS Lambda
+
+**Answer:** B. AWS CloudWatch
+
+**Q2:**
+What is the main purpose of AWS CloudWatch Alarms?
+
+A. To store log data\
+B. To automate infrastructure deployment\
+C. To set thresholds and trigger notifications based on metric conditions\
+D. To track changes in AWS resource configurations
+
+**Answer:** C. To set thresholds and trigger notifications based on metric conditions
+
+### AWS CloudTrail:
+
+**Q1:**
+What does AWS CloudTrail primarily provide?
+
+A. Continuous monitoring and recording of configuration changes\
+B. Collection and tracking of metrics\
+C. Governance, compliance, and risk auditing\
+D. Inventory management of AWS resources
+
+**Answer:** C. Governance, compliance, and risk auditing
+
+**Q2:**
+Which type of information is included in AWS CloudTrail logs?
+
+A. User and resource activity details\
+B. Real-time log analytics\
+C. Application log files\
+D. AWS resource health status
+
+**Answer:** A. User and resource activity details
+
+### AWS Config:
+
+**Q1:**
+What is the main purpose of AWS Config?
+
+A. Continuous monitoring of log files\
+B. Configuration management and tracking changes to AWS resource configurations\
+C. Real-time analysis of system performance\
+D. Automated deployment of AWS resources
+
+**Answer:** B. Configuration management and tracking changes to AWS resource configurations
+
+**Q2:**
+How does AWS Config enhance security?
+
+A. By providing real-time log analytics\
+B. By automating infrastructure deployment\
+C. By continuously monitoring and recording configuration changes\
+D. By storing log files in an encrypted form
+
+**Answer:** C. By continuously monitoring and recording configuration changes
