@@ -516,3 +516,43 @@ Disaster recovery in AWS refers to the set of strategies and services designed t
 10.  **AWS Site-to-Site VPN:** Enables secure communication between on-premises data centers and the AWS Cloud, facilitating disaster recovery solutions.
 
 11.  **AWS Direct Connect:** Establishes a dedicated network connection from your on-premises data center to AWS, enhancing network performance for disaster recovery scenarios.
+
+# AWS CloudWatch:
+
+**Description:**
+AWS CloudWatch is a monitoring and observability service provided by Amazon Web Services. It allows you to collect and track metrics, collect and monitor log files, and set alarms. With CloudWatch, you can gain insights into the performance, health, and operational status of your AWS resources and applications.
+
+**Key Features:**
+1. **Metrics and Alarms:** Monitor various AWS resources and set up alarms to be notified of any abnormal behavior.
+2. **Logs:** Collect and analyze log data from your applications and AWS resources.
+3. **Events:** Respond to changes in your AWS resources in real-time by triggering automated actions.
+4. **Dashboards:** Create customizable dashboards to visualize and understand your system's performance.
+
+### AWS CloudTrail:
+
+**Description:**
+AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. It provides a record of actions taken by users, roles, or AWS services in your account. CloudTrail logs contain information about who made the request, the services used, the actions performed, parameters for the actions, and the response elements returned by the AWS service.
+
+**Key Features:**
+1. **Visibility:** Gain visibility into user and resource activity by tracking API requests.
+2. **Compliance:** Facilitate auditing, compliance, and risk management.
+3. **Security:** Enhance security by monitoring changes to AWS resources.
+4. **Log File Integrity:** Protect log file integrity by storing logs in an encrypted form.
+
+### AWS Config:
+
+**Description:**
+AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. It continuously monitors and records configurations changes, allowing you to maintain an inventory of resources and track changes over time. AWS Config provides a detailed view of the configuration of AWS resources and their relationships, including how past configurations were configured.
+
+**Key Features:**
+1. **Resource Inventory:** Maintain an inventory of AWS resources and their configurations.
+2. **Configuration History:** Track changes to resource configurations and relationships over time.
+3. **Configuration Rules:** Define rules to evaluate configurations against desired settings.
+4. **Change Notifications:** Receive notifications when resource configurations change.
+
+**Use Cases:**
+- **Compliance Management:** Ensure that resource configurations comply with organizational policies.
+- **Change Management:** Track and respond to changes in resource configurations.
+- **Security and Governance:** Enhance security by monitoring and managing configurations.
+
+These services work together to provide a comprehensive solution for monitoring, auditing, and managing AWS resources.
